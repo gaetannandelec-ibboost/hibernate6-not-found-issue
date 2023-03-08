@@ -33,7 +33,6 @@ class DemoApplicationTests {
 
 		Child child = new Child();
 		child.setName("C");
-		child.setRecordId(1L);
 		child = childDAO.save(child);
 
 		Animal animal = new Animal();
